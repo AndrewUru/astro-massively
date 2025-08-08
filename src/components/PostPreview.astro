@@ -53,4 +53,14 @@ const { title, image, date, summary, alt, featured, link } = Astro.props;
   .preview-image:not(.featured) {
     max-width: 320px;
   }
+
+  h2 a {
+    display: inline-block;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
 </style>
