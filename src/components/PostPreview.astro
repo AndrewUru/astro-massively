@@ -1,4 +1,5 @@
 ---
+//C:\astro-massively\src\components\PostPreview.astro
 import { format } from 'date-fns';
 
 export interface Props {
@@ -20,17 +21,36 @@ const { title, image, date, summary, alt, featured, link } = Astro.props;
       {format(date, 'yyyy-MM-dd')}
     </span>
     <h2>
-      <a href={link} set:html={title}></a>
+      <a href={link} set:html={title} />
     </h2>
     {featured && <p set:html={summary} />}
   </header>
   <a href={link} class={featured ? 'image main' : 'image fit'}>
-    <img src={image} width={featured ? 896 : 448} height={!featured && 218} alt={alt || ''} />
+    <img src={image} alt={alt || ''} class={featured ? 'preview-image featured' : 'preview-image'} loading="lazy" />
   </a>
   {!featured && <p set:html={summary} />}
   <ul class="actions special">
     <li>
-      <a href={link} class={featured ? 'button large' : 'button'}>Full Story</a>
+      <a href={link} class={featured ? 'button large' : 'button'}>Ver Servicios</a>
     </li>
   </ul>
 </article>
+
+<style>
+  .preview-image {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .preview-image.featured {
+    max-width: 320px;
+  }
+
+  .preview-image:not(.featured) {
+    max-width: 320px;
+  }
+</style>

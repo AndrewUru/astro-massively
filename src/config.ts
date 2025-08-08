@@ -1,51 +1,45 @@
 export const NAV_ITEMS = [
   {
     path: '/',
-    title: 'This is Massively',
+    title: 'Inicio',
   },
   {
-    path: '/generic',
-    title: 'Generic Page',
+    path: '/servicios',
+    title: 'Servicios',
   },
   {
-    path: '/elements',
-    title: 'Elements Reference',
+    path: '/galeria',
+    title: 'Galería',
+  },
+  {
+    path: '/contacto',
+    title: 'Contacto',
   },
 ];
 
 export const SOCIAL_MEDIA_ITEMS = [
   {
-    path: '#',
-    title: 'Twitter',
-    iconClass: 'fa-twitter',
-  },
-  {
-    path: '#',
-    title: 'Facebook',
-    iconClass: 'fa-facebook-f',
-  },
-  {
-    path: '#',
+    path: 'https://www.instagram.com/stephanie.branas',
     title: 'Instagram',
     iconClass: 'fa-instagram',
   },
   {
-    path: '#',
-    title: 'GitHub',
-    iconClass: 'fa-github',
+    path: 'https://wa.me/34648226078',
+    title: 'WhatsApp',
+    iconClass: 'fa-whatsapp',
   },
 ];
 
 export const SITE = {
-  title: 'Massively for Astro',
-  description: 'A free, fully responsive HTML5 + CSS3 site template, ported to Astro',
-  url: 'https://astro-massively.darko.io',
-  githubUrl: 'https://github.com/DBozhinovski/astro-massively',
+  title: 'Stephanie Branas',
+  description: 'Maquillaje, uñas y belleza profesional en Benimaclet - Valencia',
+  url: 'https://www.elsaltoweb.es/stephanie-branas',
+  githubUrl: '', // Puedes quitar esto si no lo usas
 };
 
 export const CONTACT = {
-  address: ['1234 Somewhere Road #87257 Nashville', 'TN 00000-0000'],
-  phone: '(000) 000-0000',
-  email: 'info@untitled.tld',
-  formSubmitUrl: '/',
+  address: ['Benimaclet, Valencia'],
+  phone: '+34 648 226 078',
+  email: 'stephanie.branas@example.com',
+  formSubmitUrl: '/contacto', // O tu backend/formsubmit/email service
 };

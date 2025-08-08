@@ -1,11 +1,50 @@
 ---
-layout: "../../layouts/BlogPost.astro"
-title: "This is another<br />Generic Page"
-summary: "Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor amet nullam sed etiam veroeros."
-pubDate: "2017-04-24"
-image: "/images/pic03.jpg"
+layout: '../../layouts/BlogPost.astro'
+title: 'Maquillaje profesional<br />para cada ocasión'
+summary:
+  'Descubre cómo Stephanie Branas transforma tu look con maquillaje personalizado para eventos, sesiones, bodas y más.
+  Belleza con detalle y estilo en Benimaclet.'
+pubDate: '2025-08-08'
+image: '/images/modelo-maquillaje.png'
+alt: 'Modelo maquillada profesionalmente por Stephanie'
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.
+Resalta tu belleza natural con un maquillaje a medida 💄✨
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.
+En el estudio de **Stephanie Branas**, cada sesión de maquillaje está pensada para ti: tu rostro, tu estilo, tu ocasión.
+Ya sea para un evento, una sesión de fotos, una boda o simplemente para verte y sentirte espectacular, estás en buenas
+manos.
+
+---
+
+### Tipos de maquillaje
+
+- Maquillaje social y para eventos
+- Editorial y para sesiones fotográficas
+- Novias y ceremonias especiales
+- Maquillaje natural para día a día
+
+Trabajamos con productos profesionales de alta duración y técnicas que realzan tu belleza sin sobrecargar.
+
+---
+
+### Lo que puedes esperar
+
+- Evaluación del tipo de piel y facciones
+- Preparación y cuidado previo del rostro
+- Aplicación de maquillaje paso a paso con atención al detalle
+- Asesoramiento personalizado de look
+
+---
+
+### Reserva tu sesión
+
+📲 [WhatsApp directo](https://wa.me/34648226078)  
+📸 [Instagram @stephanie.branas](https://www.instagram.com/stephanie.branas)
+
+O consulta disponibilidad desde la sección de contacto.
+
+---
+
+Porque tu rostro es tu carta de presentación…  
+✨ Deja que hable por ti con el toque de Stephanie Branas.

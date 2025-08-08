@@ -1,5 +1,5 @@
 ---
-import { CONTACT, SOCIAL_MEDIA_ITEMS } from 'src/config';
+import { CONTACT, SOCIAL_MEDIA_ITEMS } from '../config';
 ---
 
 <footer id="footer">
@@ -7,33 +7,31 @@ import { CONTACT, SOCIAL_MEDIA_ITEMS } from 'src/config';
     <form method="post" action={CONTACT.formSubmitUrl}>
       <div class="fields">
         <div class="field">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" />
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="Tu nombre completo" required />
         </div>
         <div class="field">
           <label for="email">Email</label>
-          <input type="text" name="email" id="email" />
+          <input type="email" name="email" id="email" placeholder="tu@email.com" required />
         </div>
         <div class="field">
-          <label for="message">Message</label>
-          <textarea name="message" id="message" rows="3"></textarea>
+          <label for="message">Mensaje</label>
+          <textarea name="message" id="message" rows="4" placeholder="¿En qué puedo ayudarte?"></textarea>
         </div>
       </div>
       <ul class="actions">
-        <li><input type="submit" value="Send Message" /></li>
+        <li><input type="submit" value="Enviar mensaje" class="primary" /></li>
       </ul>
     </form>
   </section>
+
   <section class="split contact">
     <section class="alt">
-      <h3>Address</h3>
-      <p>
-        {CONTACT.address[0]}<br />
-        {CONTACT.address[1]}
-      </p>
+      <h3>Ubicación</h3>
+      <p>{CONTACT.address[0]}</p>
     </section>
     <section>
-      <h3>Phone</h3>
+      <h3>Teléfono</h3>
       <p><a href={`tel:${CONTACT.phone}`}>{CONTACT.phone}</a></p>
     </section>
     <section>
@@ -41,18 +39,16 @@ import { CONTACT, SOCIAL_MEDIA_ITEMS } from 'src/config';
       <p><a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a></p>
     </section>
     <section>
-      <h3>Social</h3>
+      <h3>Redes sociales</h3>
       <ul class="icons alt">
         {
-          SOCIAL_MEDIA_ITEMS.map((item) => {
-            return (
-              <li>
-                <a href={item.path} class={`icon brands alt ${item.iconClass}`}>
-                  <span class="label">{item.title}</span>
-                </a>
-              </li>
-            );
-          })
+          SOCIAL_MEDIA_ITEMS.map((item) => (
+            <li>
+              <a href={item.path} class={`icon brands alt ${item.iconClass}`} target="_blank" rel="noopener noreferrer">
+                <span class="label">{item.title}</span>
+              </a>
+            </li>
+          ))
         }
       </ul>
     </section>

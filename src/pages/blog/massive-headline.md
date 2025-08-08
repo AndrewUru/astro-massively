@@ -1,43 +1,37 @@
 ---
 layout: '../../layouts/BlogPost.astro'
-title: 'Massive headline'
-summary:
-  'Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />facilisis ante sed etiam magna interdum congue.
-  Lorem ipsum dolor<br />amet nullam sed etiam veroeros.'
-pubDate: '2017-04-26'
-image: '/images/pic02.jpg'
+title: 'Uñas profesionales en Benimaclet'
+summary: |
+  Stephanie Branas te ofrece un servicio exclusivo de maquillaje, uñas, pedicura y más,
+  con atención personalizada vía WhatsApp e Instagram.
+pubDate: '2025-06-08'
+image: '/images/modelo-uñas.png'
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor
-imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris,
-consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia
-in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque
-habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget
-turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.
+Bienvenida a tu espacio de belleza en Benimaclet ✨
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam
-venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet
-venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque
-habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat
-maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in
-faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim
-auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.
+Con años de experiencia y pasión por el detalle, **Stephanie Branas** ofrece servicios profesionales de **maquillaje,
+manicura, pedicura y tratamientos personalizados** para realzar tu estilo con elegancia y confianza.
 
-```ts
-class Add {
-  x: number;
-  y: number;
-  constructor(x: number, y: number) {
-    this.x = x;
-    this.y = y;
-  }
-  Display() {
-    console.log(this.x);
-    console.log(this.y);
-    console.log(`Sum: ${this.x + this.y}`);
-  }
-}
-let add = new Add(2, 3);
-add.Display();
+### Servicios destacados
+
+- 💄 Maquillaje profesional para eventos, sesiones y día a día
+- 💅 Manicura clásica, francesa, semipermanente y diseños personalizados
+- 🦶 Pedicura estética y relajante
+- 📲 Automatización de atención vía WhatsApp & Instagram
+
+Además, puedes reservar tu cita fácilmente, visualizar sus trabajos más recientes en la galería y recibir atención
+directa desde redes sociales o web.
+
+---
+
+### ¿Por qué elegir a Stephanie?
+
+- Trato cercano y profesional
+- Productos de calidad premium
+- Resultados que se ven y se sienten
+- Atención rápida gracias a automatizaciones integradas
+
+```
+
 ```

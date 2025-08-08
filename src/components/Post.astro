@@ -18,11 +18,38 @@ const { title, image, date, summary, alt, contents } = Astro.props;
     <span class="date">
       {format(date, 'yyyy-MM-dd')}
     </span>
-    <h1 set:html={title}></h1>
-    <p set:html={summary}></p>
+    <h1 set:html={title} />
+    <p set:html={summary} />
   </header>
   <div class="image main">
-    <img src={image} width={896} height={436} alt={alt || ''} />
+    <img src={image} alt={alt || ''} class="post-image" loading="lazy" />
   </div>
   <Fragment set:html={contents} />
 </section>
+
+<style>
+  .post {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .post-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 480px) {
+    .post {
+      padding: 1rem;
+    }
+
+    .post-image {
+      max-width: 100%;
+    }
+  }
+</style>
